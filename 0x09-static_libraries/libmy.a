@@ -1,0 +1,13 @@
+rch>
+0-isupper.c/    1478289987  1000  1000  100664  153       `
+#include <unistd.h>
+
+/**
+ * _isupper - writes the character c to stdout
+ * @c: The character to print
+ * Return: 0
+ */
+int _isupper(int c)
+{
+	return 0;
+}
