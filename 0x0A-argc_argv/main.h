@@ -1,12 +1,6 @@
 #ifndef main.h
 #define main.h
-
-/*
- * Structs, enums and unions definitions
- * Typedefs
- * Function prototypes
- */
-
+#include <stdio.h>
+#include <stdlib.h>
 int _putchar(char c);
-
-#endif /*_main_H_ */
+#endif /* main.h */
