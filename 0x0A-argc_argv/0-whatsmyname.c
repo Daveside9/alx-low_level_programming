@@ -1,17 +1,17 @@
-#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
-* main - prints its name follwoed by a newline
-* @argc: number of arguments
-* @argv: the vector that hold the arguments
-*
-* Description: prints the current directory and the name like ./name
-* Return: returns the name.
-*/
+ * main - print the name of this function
+ * @argc: has the length of the arguments
+ * @argv: has the arguments
+ * Return: 0 to indicate a good working of the program
+ */
 
 int main(int argc, char **argv)
 {
-	printf("%s\n", argv[argc - 1]);
+	if (argc == 1)
+		printf("%s\n", *argv);
+
 	return (0);
 }
